@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LORENA SANTOS</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body class="container">
+   <div class="btn-dark">
+
+        <ul>
+            <li class="app__card-list-item">
+                <label class="toggle">
+                    <input class="toggle-checkbox botao_dark" id="dark-mode-toggle" type="checkbox" id="alternar-musica">
+                    <div class="toggle-switch"></div>
+                </label>
+            </li>
+
+        </ul>
+    </div>
+    <header class="header">
+        <div class="nome_logo">
+            <p>Lorena Santos</p>
+        </div>
+
+        <nav class="navegacao_header">
+            <ul>
+                <li class="navegacao_header_link">
+                    <a href="#sobremim">Sobre mim</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="navegacao_header_link">
+                    <a href="#skills">Skills</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="navegacao_header_link">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="navegacao_header_link">
+                    <a href="#experiênciasprofissional">Experências Profissional</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section class="secao_apresentacao">
+        <div class="apresentacao_left">
+            <div class="apresentacao_textos">
+                <h1>Olá, meu nome é Lorena Santos, e sou Desenvolvedora Front-End!</h1>
+                <p>Eu sou acadêmica na instituição Alura e atualmente estou participando no projeto Oracle ONE + Alura.</p>
+            </div>
+    
+            <div class="apresentacao_link">
+                <ul>
+                    <li>
+                        <a href="https://github.com/lennasantos" target="_blank">GitHub</a>
+                    </li>
+
+                    <li>
+                        <a href="www.linkedin.com/in/lorena-santos-b001bb230" target="_blank">LinkedIn</a>
+                    </li>
+
+                    <li>
+                        <a href="Curriculo_Lorena_Santos_Desenvolvedora_Frontend_pdf.pdf" target="_blank">Currículo</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="apresentacao_img">
+            <img src="./Foto perfil.jpeg" alt="imagem de perfil de Lorena Santos">
+        </div>
+    
+    </section>
+
+    <section class="sobre_mim" id="sobremim">
+        <div class="sobre_mim_textos">
+            <h2>Sobre mim</h2>
+            <p>Olá, me chamo Lorena Santos tenho 28 anos, sou residente em São Paulo capital. Ao longo de toda minha trajetória, venho me destacando com as minhas habilidades em tecnologia, comunicação bem eficaz e de solucionar problemas. Sempre estou em buscando aprender algo novo, compartilhar meus conhecimentos e crescer constantemente.</p>
+        <p>Meu comprometimento com a aquisição de novos conhecimentos demonstra minha dedicação ao desenvolvimento profissional.</p>
+        <p>Fora do ambiente de trabalho, tenho uma paixão por assistir séries e filmes, acompanhar o mundo da musica, adoro ir em shows das minhas bandas favoritas, sempre gosto de está conhecendo restaurantes novos, gosto bastante de fazer tipos de passeios de diferentes estilos e locais, para ter a oportunidade de conhecer novas culturas e estilos de vidas diferentes dos nossos, sempre que posso estou explorando novos destinos através de viagens.</p>
+        <img src="./signature.png">
+        </div>
+
+    </section>
+
+    <section class="skills_hobbies">
+
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills_icons">
+                <ul>
+                    <li><img src="./htlm.png"><p>HTML</p></li>
+                    <li><img src="./css_icon.png"><p>CSS</p></li>
+                    <li><img src="./js_icon.png"><p>JAVASCRIPT</p></li>
+                    <li><img src="./react_icon.png"><p>REACT</p></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="experiencia_profissional">
+        <h2>Experiência profissional</h2>
+        <div class="experiencia_box_1">
+            <div class="experiencia_box_left">
+                <img src="./Primeiro projeto.png">
+            </div>
+            <div class="experiencia_box_right">
+                <h5>Primeiro Portifolio</h5>
+                <p>Alura Portifolio</p>
+            </div>
+
+        </div>
+
+        <div class="experiencia_box_1">
+            <div class="experiencia_box_left">
+                <img src="./Jogo secreto.png">
+            </div>
+            <div class="experiencia_box_right">
+                <h5>Jogo do Número secreto</h5>
+                <p>Jogo desenvolvido em HTML, CSS e JavaScript</p>
+            </div>
+
+        </div>
+
+        <div class="experiencia_box_1">
+            <div class="experiencia_box_left">
+                <img src="./modelo do projeto.png">
+            </div>
+            <div class="experiencia_box_right">
+                <h5>Coffee Lenna</h5>
+                <p>Cafeteria desenvolvida com HTML e CSS</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="formulario" id="contato">
+        <div class="formulario_box">
+            <div class="formulario_imagem">
+                <img src="./contact_image.png">
+            </div>
+            <div class="formulario_contato">
+                <div class="formulario_contato_txt">
+                    <h4>Contato</h4>
+                    <p>Gostaria de entrar em contato comigo? <br> Preencha o formulário e entrarei em contato o mais rápido possível.</p>
+                </div>
+
+                <div class="form">
+                    <form action="https://formsubmit.co/santos.lorena848@gmail.com" method="POST"
+                    data-form>
+                        <div class="form_name">
+                            <input type="text" name="nome" id="nome" placeholder="Nome">
+                        </div>
+                        
+                        <div class="form_email">
+                            <input type="email" name="email" id="email" placeholder="E-mail">
+                        </div>
+
+                        <div class="form_assunto_mensagem">
+                            <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+                            <textarea rows="12" cols="40" name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="form_button">
+                            <input class="submit"  data-button type="submit" value="Enviar mensagem">
+                        </div>
+                        
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <p>Desenvolvido por Lorena Santos <br> 2024</p>
+        </div>
+    </footer>
+
+    <script>
+        // Função para alternar entre os modos claro e escuro
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+
+            const sobreMimSection = document.querySelector('.sobre_mim');
+            sobreMimSection.classList.toggle('sobre_mim_dark');
+
+            const skillshobbiesSection = document.querySelector('.skills_hobbies');
+            skillshobbiesSection.classList.toggle('skills_hobbies_dark');
+
+            const formularioSection = document.querySelector('.formulario');
+            formularioSection.classList.toggle('formulario__dark');
+        }
+
+        // Evento de clique para alternar o modo claro/escuro
+        const darkModeToggle = document.querySelector('#dark-mode-toggle');
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+
+
+
+    </script>
+
+</body>
+
+</html>
